@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#020202" />
+  <link rel="icon" type="image/png" href="assets/img/logo/mancave-taleigao-favicon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Gallery | Man Cave Gaming Cafe Taleigao</title>
+  <meta name="description" content="Explore Man Cave Gaming Cafe Taleigao: neon pool tables, console gaming, snacks, tournament moments and hangout energy." />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Man Cave Gaming Cafe home">
+      <img src="assets/img/logo/mancave-taleigao-official-logo.png" alt="Man Cave Taleigao logo" />
+      <span>Man Cave</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="booking.html">Book</a>
+      <a href="index.html#tour">Tour</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#location">Visit</a>
+      <a class="nav-cta" href="https://wa.me/917020153602" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main class="gallery-page section-pad">
+    <section class="gallery-hero reveal">
+      <p class="eyebrow">Full gallery</p>
+      <h1>Neon walls. Pool tables. Console battles.</h1>
+      <p>Browse the place before booking a slot.</p>
+      <a class="btn btn-primary" href="booking.html">Book on WhatsApp</a>
+    </section>
+
+    <section class="filter-bar reveal" aria-label="Gallery filters">
+      <button class="active" data-filter="All">All</button>
+      <button data-filter="Pool">Pool</button>
+      <button data-filter="Gaming">Gaming</button>
+      <button data-filter="Interiors">Interiors</button>
+      <button data-filter="Cafe">Cafe</button>
+      <button data-filter="Community">Community</button>
+    </section>
+
+    <section class="gallery-grid" id="galleryGrid" aria-label="Man Cave photo gallery"></section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Close gallery image">×</button>
+    <img src="" alt="" />
+    <p></p>
+  </div>
+
+  <footer class="site-footer">
+    <img src="assets/img/logo/mancave-taleigao-official-logo.png" alt="Man Cave Taleigao logo" />
+    <p>Man Cave Gaming Cafe • Taleigao, Goa</p>
+    <a href="booking.html">Book on WhatsApp</a>
+  </footer>
+
+  <script src="assets/js/gallery-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

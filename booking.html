@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#020202" />
+  <link rel="icon" type="image/png" href="assets/img/logo/mancave-taleigao-favicon.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Book a Slot | Man Cave Gaming Cafe Taleigao</title>
+  <meta name="description" content="Book a pool table, console gaming slot or group hangout at Man Cave Gaming Cafe Taleigao through WhatsApp." />
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Man Cave Gaming Cafe home">
+      <img src="assets/img/logo/mancave-taleigao-official-logo.png" alt="Man Cave Taleigao logo" />
+      <span>Man Cave</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="booking.html">Book</a>
+      <a href="index.html#tour">Tour</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#location">Visit</a>
+      <a class="nav-cta" href="https://wa.me/917020153602" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main class="booking-page section-pad">
+    <section class="booking-hero reveal">
+      <p class="eyebrow">WhatsApp booking</p>
+      <h1>Lock your slot before the room fills.</h1>
+      <p>Choose the game, date, time and group size. Your request opens directly in WhatsApp for confirmation.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="https://wa.me/917020153602" target="_blank" rel="noopener">Message Aslam Khan</a><a class="btn btn-ghost" href="tel:+917020153602">Call 70201 53602</a></div>
+    </section>
+
+    <section class="booking-grid page-booking-grid">
+      <form class="booking-panel reveal" id="bookingForm">
+        <div class="field-row">
+          <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+          <label>Group size<input type="number" name="people" min="1" max="20" value="4" required></label>
+        </div>
+        <div class="field-row">
+          <label>Date<input type="date" name="date" required></label>
+          <label>Preferred time<input type="time" name="time" required></label>
+        </div>
+        <label>Booking type
+          <select name="activity" required>
+            <option value="Pool table">Pool table</option>
+            <option value="Console gaming">Console gaming</option>
+            <option value="Pool + console gaming">Pool + console gaming</option>
+            <option value="Birthday / group hangout">Birthday / group hangout</option>
+            <option value="Tournament enquiry">Tournament enquiry</option>
+          </select>
+        </label>
+        <label>Extra note<textarea name="note" rows="5" placeholder="Example: Need a late evening slot for 6 people..."></textarea></label>
+        <div class="booking-buttons">
+          <button class="btn btn-primary" type="submit">Send request on WhatsApp</button>
+          <a class="btn btn-ghost" href="gallery.html">View gallery first</a>
+        </div>
+      </form>
+
+      <aside class="booking-output reveal delay-1" aria-live="polite">
+        <span class="status-dot"></span>
+        <h3>Booking details</h3>
+        <p id="bookingPreview">Fill the booking details and send the request to check availability.</p>
+        <a class="copy-btn whatsapp-direct" href="https://wa.me/917020153602" target="_blank" rel="noopener">Open WhatsApp</a>
+        <div class="hours-card">
+          <h4>Contact</h4>
+          <p>Aslam Khan</p>
+          <p>70201 53602</p>
+          <h4>Opening hours</h4>
+          <p>Mon–Sat: 10:30 AM – 10:30 PM</p>
+          <p>Sunday: 12:00 PM – 10:30 PM</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/img/logo/mancave-taleigao-official-logo.png" alt="Man Cave Taleigao logo" />
+    <p>Man Cave Gaming Cafe • Taleigao, Goa</p>
+    <a href="booking.html">Book on WhatsApp</a>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
